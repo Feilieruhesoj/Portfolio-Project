@@ -1,7 +1,7 @@
 html, body{
 	font-size:16px;
 	color: #dfdfdf;
-	background-color: #063647; 
+	background-color: #070504; 
 }
 
 a {
@@ -19,6 +19,16 @@ section{
 
 .section-1 {
 	background: #063647;
+	background-image: url("/assets/img/green_l.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-weight: 450;
+	font-size: 20px;
+	text-shadow: 
+		-1px 1px 0 #000, 
+		1px 1px 0 #000, 
+		1px -1px 0 #000, 
+		-1px -1px 0 #000; 
 }
 
 .section-2 {
@@ -30,7 +40,7 @@ section{
 }
 
 .section-4 {
-	background-color: #063647;
+	background-color: #070504;
 	padding: 0.2rem;
 }
 
@@ -45,6 +55,9 @@ a.nav-item:hover {
 .avatar{
 	height:200px;
 	border-radius: 50%;
+	border-style: solid;
+	border-width: 5px;
+	border-color: rgb(48, 184, 60)
 }
 
 .intro-description{
